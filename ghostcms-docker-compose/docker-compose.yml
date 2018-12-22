@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  ghost:
+    image: ghost-aleix
+    ports:
+      - 2368:2368
+    volumes:
+      - ./content:/var/lib/ghost/content
+
